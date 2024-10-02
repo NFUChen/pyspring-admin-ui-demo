@@ -1,0 +1,11 @@
+<brn-select class="inline-block w-full" placeholder="Select an option" >
+    <hlm-select-trigger class="w-full">
+        <hlm-select-value />
+    </hlm-select-trigger>
+    <hlm-select-content>
+        @for (option of options; track $index) {
+            <hlm-option (click)="handleChangeChoice(option)" [value]="option" class="w-full">{{option.toLocaleUpperCase()}}</hlm-option>
+        }
+
+    </hlm-select-content>
+</brn-select>

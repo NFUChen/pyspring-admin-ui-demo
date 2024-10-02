@@ -1,0 +1,46 @@
+<ng-template #pencil>
+    <div class="size-10 flex items-center justify-center hover:bg-secondary duration-300 rounded-md cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125" />
+        </svg>
+    </div>
+</ng-template>
+
+
+<hlm-caption class="mb-3 text-4xl text-white">{{ caption }}</hlm-caption>
+<div class="w-full flex justify-end mb-3">
+    <button hlmBtn variant="ghost" (click)="handleClickAdd()">Add {{ caption }}</button>
+</div>
+@if (view.rows.length !== 0) {
+    <hlm-table class="w-full min-w-[400px] overflow-x-auto" hlmCard>
+        <hlm-trow class="bg-secondary">
+            @for (column of view.columns; track $index) {
+                <hlm-th [ngStyle]="{'width': tableCellWidth}">
+                    {{ column.header }}
+                </hlm-th>
+            }
+            <hlm-th [ngStyle]="{'width': '5%'}">
+                Edit
+            </hlm-th>
+        </hlm-trow>
+        @for (row of view.rows; track $index) {
+            <hlm-trow class="h-14 w-auto text-wrap">
+                @for (column of view.columns; track $index) {
+                    <hlm-td [ngStyle]="{'width': tableCellWidth}" hlmCard
+                            class="border-t-0 border-b-0 rounded-none p-1">
+                          <span class="flex justify-center items-center h-full w-full px-3">
+                            {{ row[column.field] }}
+                          </span>
+                    </hlm-td>
+                }
+                <hlm-td [ngStyle]="{'width': '5%'}" hlmCard (click)="handleClickEdit(row)"
+                        class="border-t-0 border-b-0 rounded-none p-0">
+                    <ng-container *ngTemplateOutlet="pencil"/>
+                </hlm-td>
+            </hlm-trow>
+        }
+    </hlm-table>
+} @else {
+    <div class="w-full mt-10 flex justify-center items-center text-2xl">No Data</div>
+}
+

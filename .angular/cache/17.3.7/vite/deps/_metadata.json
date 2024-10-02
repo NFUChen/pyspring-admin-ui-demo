@@ -1,0 +1,184 @@
+{
+  "hash": "74c85415",
+  "configHash": "cb8759b2",
+  "lockfileHash": "75d1e81d",
+  "browserHash": "726ce76b",
+  "optimized": {
+    "@angular/common/http": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "3c2b2afe",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "91b006b6",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "3f39be36",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "60ced9d9",
+      "needsInterop": false
+    },
+    "@spartan-ng/ui-core": {
+      "src": "../../../../../node_modules/@spartan-ng/ui-core/fesm2022/spartan-ng-ui-core.mjs",
+      "file": "@spartan-ng_ui-core.js",
+      "fileHash": "5adcfb01",
+      "needsInterop": false
+    },
+    "class-variance-authority": {
+      "src": "../../../../../node_modules/class-variance-authority/dist/index.mjs",
+      "file": "class-variance-authority.js",
+      "fileHash": "5ca6fa19",
+      "needsInterop": false
+    },
+    "@spartan-ng/ui-label-brain": {
+      "src": "../../../../../node_modules/@spartan-ng/ui-label-brain/fesm2022/spartan-ng-ui-label-brain.mjs",
+      "file": "@spartan-ng_ui-label-brain.js",
+      "fileHash": "7ba09d5d",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "c2157cc8",
+      "needsInterop": false
+    },
+    "ngx-sonner": {
+      "src": "../../../../../node_modules/ngx-sonner/fesm2022/ngx-sonner.mjs",
+      "file": "ngx-sonner.js",
+      "fileHash": "ae0123e3",
+      "needsInterop": false
+    },
+    "rxjs/operators": {
+      "src": "../../../../../node_modules/rxjs/dist/esm5/operators/index.js",
+      "file": "rxjs_operators.js",
+      "fileHash": "13e01d91",
+      "needsInterop": false
+    },
+    "rxjs": {
+      "src": "../../../../../node_modules/rxjs/dist/esm5/index.js",
+      "file": "rxjs.js",
+      "fileHash": "acfff54b",
+      "needsInterop": false
+    },
+    "ts-case-convert": {
+      "src": "../../../../../node_modules/ts-case-convert/lib/index.js",
+      "file": "ts-case-convert.js",
+      "fileHash": "69fadf89",
+      "needsInterop": true
+    },
+    "@spartan-ng/ui-avatar-brain": {
+      "src": "../../../../../node_modules/@spartan-ng/ui-avatar-brain/fesm2022/spartan-ng-ui-avatar-brain.mjs",
+      "file": "@spartan-ng_ui-avatar-brain.js",
+      "fileHash": "f186da41",
+      "needsInterop": false
+    },
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "f48cefd5",
+      "needsInterop": false
+    },
+    "@spartan-ng/ui-accordion-brain": {
+      "src": "../../../../../node_modules/@spartan-ng/ui-accordion-brain/fesm2022/spartan-ng-ui-accordion-brain.mjs",
+      "file": "@spartan-ng_ui-accordion-brain.js",
+      "fileHash": "6fd7341a",
+      "needsInterop": false
+    },
+    "@ng-icons/lucide": {
+      "src": "../../../../../node_modules/@ng-icons/lucide/fesm2022/ng-icons-lucide.mjs",
+      "file": "@ng-icons_lucide.js",
+      "fileHash": "040fb526",
+      "needsInterop": false
+    },
+    "@ng-icons/core": {
+      "src": "../../../../../node_modules/@ng-icons/core/fesm2022/ng-icons-core.mjs",
+      "file": "@ng-icons_core.js",
+      "fileHash": "6d6c3d68",
+      "needsInterop": false
+    },
+    "@spartan-ng/ui-table-brain": {
+      "src": "../../../../../node_modules/@spartan-ng/ui-table-brain/fesm2022/spartan-ng-ui-table-brain.mjs",
+      "file": "@spartan-ng_ui-table-brain.js",
+      "fileHash": "2fc114fd",
+      "needsInterop": false
+    },
+    "@spartan-ng/ui-dialog-brain": {
+      "src": "../../../../../node_modules/@spartan-ng/ui-dialog-brain/fesm2022/spartan-ng-ui-dialog-brain.mjs",
+      "file": "@spartan-ng_ui-dialog-brain.js",
+      "fileHash": "eea89f38",
+      "needsInterop": false
+    },
+    "@spartan-ng/ui-checkbox-brain": {
+      "src": "../../../../../node_modules/@spartan-ng/ui-checkbox-brain/fesm2022/spartan-ng-ui-checkbox-brain.mjs",
+      "file": "@spartan-ng_ui-checkbox-brain.js",
+      "fileHash": "a97734f2",
+      "needsInterop": false
+    },
+    "@spartan-ng/ui-select-brain": {
+      "src": "../../../../../node_modules/@spartan-ng/ui-select-brain/fesm2022/spartan-ng-ui-select-brain.mjs",
+      "file": "@spartan-ng_ui-select-brain.js",
+      "fileHash": "74953e9d",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-QP756ATZ": {
+      "file": "chunk-QP756ATZ.js"
+    },
+    "chunk-HTMUMCL5": {
+      "file": "chunk-HTMUMCL5.js"
+    },
+    "chunk-33JCU7PW": {
+      "file": "chunk-33JCU7PW.js"
+    },
+    "chunk-PBWN6U44": {
+      "file": "chunk-PBWN6U44.js"
+    },
+    "chunk-HWWPEUWU": {
+      "file": "chunk-HWWPEUWU.js"
+    },
+    "chunk-GMHGR7V4": {
+      "file": "chunk-GMHGR7V4.js"
+    },
+    "chunk-J5ZBLY7G": {
+      "file": "chunk-J5ZBLY7G.js"
+    },
+    "chunk-QX2KJAYX": {
+      "file": "chunk-QX2KJAYX.js"
+    },
+    "chunk-TTCURWDP": {
+      "file": "chunk-TTCURWDP.js"
+    },
+    "chunk-D6Y3SFFO": {
+      "file": "chunk-D6Y3SFFO.js"
+    },
+    "chunk-ISEOMAR5": {
+      "file": "chunk-ISEOMAR5.js"
+    },
+    "chunk-R6A45NQ5": {
+      "file": "chunk-R6A45NQ5.js"
+    },
+    "chunk-SAVXX6OM": {
+      "file": "chunk-SAVXX6OM.js"
+    },
+    "chunk-SG3BCSKH": {
+      "file": "chunk-SG3BCSKH.js"
+    },
+    "chunk-PQ7O3X3G": {
+      "file": "chunk-PQ7O3X3G.js"
+    },
+    "chunk-WKYGNSYM": {
+      "file": "chunk-WKYGNSYM.js"
+    }
+  }
+}

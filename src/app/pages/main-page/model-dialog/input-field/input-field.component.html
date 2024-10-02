@@ -1,0 +1,18 @@
+@if (field.isReadonly) {
+    <div>
+        <p>{{field.header}}: {{field.value || "Not Given"}}</p>
+    </div>
+} @else if (field.builtInType == FieldType.ENUM) {
+   <app-select-dropdown [options]="choices" (optionChange)="handleOptionChange($event)"/>
+
+} @else if (field.type == FieldType.BOOLEAN) {
+    <app-radio-button [label]="field.header" (radioChange)="handleRadioChange($event)" [checked]="field.value"/>
+}
+@else {
+    <label class="w-full" hlmLabel>{{field.header}}
+        <input class="w-full" hlmInput [type]="getInputType(stringToFieldType(field.type))" [(ngModel)]="field.value"/>
+    </label>
+
+}
+
+

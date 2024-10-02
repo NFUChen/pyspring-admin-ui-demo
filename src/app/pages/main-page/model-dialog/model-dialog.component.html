@@ -1,0 +1,16 @@
+<hlm-dialog [state]="state()" (closed)="state.set('closed')">
+    <hlm-dialog-content *brnDialogContent="let ctx" class="min-w-[30vw] max-h-[85vh] overflow-y-auto">
+        <hlm-dialog-header>
+            <div>
+                <h3 hlmDialogTitle class="mb-5">Table Form</h3>
+                <div class="w-full flex flex-col space-y-3">
+                    @for (field of fields; track $index) {
+                        <app-input-field [field]="field"/>
+                    }
+                    <button hlmBtn class="self-end" variant="ghost" (click)="handleConfirm()">Confirm</button>
+                </div>
+            </div>
+
+        </hlm-dialog-header>
+    </hlm-dialog-content>
+</hlm-dialog>

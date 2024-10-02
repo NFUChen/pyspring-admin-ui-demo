@@ -1,0 +1,9 @@
+<div class="w-full h-full p-5">
+    <div>Tables</div>
+    <ul class="pt-3 overflow-y-auto">
+        @for (name of tablesNames; track $index) {
+           <li class="hover:bg-secondary duration-200 p-3 rounded-md" (click)="updateTableView(name)">{{name}}</li>
+        }
+    </ul>
+
+</div>

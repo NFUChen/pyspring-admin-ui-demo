@@ -1,3 +1,3 @@
 export const environment = {
-  baseSource: "http://10.3.135.78:9998"
+  baseSource: "http://0.0.0.0:8080"
 };

@@ -1,0 +1,25 @@
+<ng-template #avatar>
+    <div class="size-10 rounded-full bg-secondary flex items-center justify-center">{{userName}}</div>
+</ng-template>
+
+<div class="h-screen w-screen flex overflow-x-hidden">
+    <section hlmCard class="w-1/6 h-screen rounded-none flex flex-col">
+        <div class="flex items-center justify-center h-12">
+            <p class="font-bold">Admin</p>
+        </div>
+        <div class="h-full overflow-y-auto">
+            <app-side-panel/>
+        </div>
+
+    </section>
+    <div class="w-5/6 h-screen flex flex-col">
+        <div class="h-[5%] rounded-none w-auto flex items-center justify-end p-3 min-h-16" hlmCard>
+            <ng-container *ngTemplateOutlet="avatar"/>
+        </div>
+        <div class="grow">
+            <ng-content/>
+        </div>
+
+    </div>
+
+</div>
